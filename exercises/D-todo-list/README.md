@@ -1,6 +1,6 @@
 # Todo List
 
-The function **todoList** takes an array of todo objects:
+The function **todoList** takes an array of to-do objects:
 
 ```js
 const todos = [
