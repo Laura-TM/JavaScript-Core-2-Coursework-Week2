@@ -11,7 +11,8 @@ function listOfColours(colours) {
     selectionList.appendChild(option);
     let updateColors = function () {
       sentence.textContent = `You have picked: ${colour}`;
-      sentence.style.color = `${colour}`;
+      // sentence.style.color = `${colour}`;
+      sentence.style.backgroundColor = `${colour}`;
     };
     option.addEventListener("click", updateColors);
   }
